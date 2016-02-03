@@ -1,7 +1,7 @@
 DEBUG = 0
 ARCHS = armv7 arm64 armv7s
 SOURCE = src
-TARGET =: clang
+TARGET =: clang::5.0
 
 ADDITIONAL_OBJCFLAGS = -fobjc-arc
 
