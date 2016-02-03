@@ -115,7 +115,7 @@ static inline double ptDist(double x1, double y1, double x2, double y2, double p
      */
     if(dot(dx2, dy2, dx4, dy4) > 0)return dist(dx2, dy2);
     
-    return abs(d1);
+    return fabs(d1);
 }
 
 static inline void WRITEPLIST(NSString *path, NSObject *obj) {
