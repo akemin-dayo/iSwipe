@@ -1,0 +1,13 @@
+Package: net.angelxwind.iswipe
+Name: iSwipe
+Version: 2.0
+Description: First gesture-based keyboard for iOS!
+Section: Tweaks
+Depends: firmware (>= 5.0), mobilesubstrate
+Replaces: 
+Architecture: iphoneos-arm
+Author: Karen Tsai (angelXwind), wyndwarrior <angelXwind@angelxwind.net>
+Homepage: https://cydia.angelxwind.net/
+Depiction: https://cydia.angelxwind.net/?page/net.angelxwind.iswipe
+Maintainer: Karen Tsai (angelXwind) <angelXwind@angelxwind.net>
+Conflicts: 
