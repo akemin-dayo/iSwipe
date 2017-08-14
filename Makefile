@@ -1,7 +1,12 @@
+TARGET =: clang
+ARCHS = armv7 armv7s arm64
 DEBUG = 0
-ARCHS = armv7 arm64 armv7s
+GO_EASY_ON_ME = 1
+
 SOURCE = src
-TARGET =: clang::5.0
+
+THEOS_PACKAGE_DIR_NAME = debs
+PACKAGE_VERSION = $(THEOS_PACKAGE_BASE_VERSION)
 
 ADDITIONAL_OBJCFLAGS = -fobjc-arc
 
@@ -12,3 +17,6 @@ iSwipe_FRAMEWORKS = Foundation UIKit CoreGraphics
 
 include $(THEOS)/makefiles/tweak.mk
 
+after-install::
+	install.exec "killall backboardd"
+#	install.exec "killall SpringBoard"

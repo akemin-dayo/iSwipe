@@ -1,5 +1,11 @@
 *.o
-/obj
-.DS_Store
-/*.xcworkspace/
-.theos
+.theos/*
+debs/*
+*.deb
+*.dylib
+**/.theos/*
+*/.theos/*
+*.sublime-workspace
+_/*
+*/obj/*
+obj/*
