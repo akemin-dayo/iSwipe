@@ -6,7 +6,7 @@ Section: Tweaks
 Depends: firmware (>= 5.0), mobilesubstrate
 Replaces: 
 Architecture: iphoneos-arm
-Author: Andrew Liu (WyndWarrior), Karen／明美 (angelXwind) <angelXwind@angelxwind.net>
+Author: Andrew Liu (WyndWarrior), Karen/あけみ (angelXwind) <karen@angelxwind.net>
 Homepage: https://cydia.angelxwind.net/
 Depiction: https://cydia.angelxwind.net/?page/net.angelxwind.iswipe
-Maintainer: Karen／明美 (angelXwind) <angelXwind@angelxwind.net>
+Maintainer: Karen/あけみ (angelXwind) <karen@angelxwind.net>
